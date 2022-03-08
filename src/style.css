@@ -1,0 +1,62 @@
+html{
+    background-color: rgb(111, 111, 211);
+}
+.headdiv{
+    
+    color: cornsilk;
+    font-weight: 600;
+}
+.maindiv{
+    text-align: center;
+}
+#txtarea{
+   color :rgb(36, 141, 71);
+   border-color: rgb(199, 56, 13);
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: rgb(206, 172, 122);
+    border-radius: 15px;
+}
+#btnpost
+{
+    background-color: rgb(163, 93, 93);
+    padding: 5px 10px;
+    font-size: 15px;
+    color : white;
+  font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.disptxtarea{
+    color :rgb(42, 70, 199);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+     padding: 2% 5% 4% 5%;
+     background-color: rgb(122, 206, 195);
+     border-radius: 10px;
+     border-color: blue;
+}
+.btnedit{
+    background-color: rgb(182, 159, 159);
+    padding: 5px 10px;
+    font-size: 15px;
+    color : rgb(135, 22, 150);
+  font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnupdate{
+    background-color: rgb(182, 159, 159);
+    padding: 5px 10px;
+    font-size: 15px;
+    color : rgb(135, 22, 150);
+  font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btndelete{
+    background-color: indigo;
+    padding: 5px 10px;
+    font-size: 15px;
+    color : white;
+  font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
