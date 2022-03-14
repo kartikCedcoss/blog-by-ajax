@@ -60,7 +60,7 @@ session_start();
 function displayblog(pArr){
     var html ="<ol>";
   for(let i=0; i<pArr.length; i++){
-      html += "<li><textarea  rows='4' columns='4' class='disptxtarea' id='"+i+"' value=' '>"+pArr[i]+"</textarea></t><input type='button' id='"+i+"'  class='btnedit' value='Edit' onclick='editpost("+i+")' ><br><input type='button' id='"+i+"'  class='btndelete' value='Delete' onclick='deletepost("+i+")' ><br><br></li>"
+      html += "<li><textarea  rows='4' columns='4' class='disptxtarea' id='"+i+"' value=' '>"+pArr[i]+"</textarea></t><input type='button' id='"+i+"'  class='btnedit' value='Update' onclick='editpost("+i+")' ><br><input type='button' id='"+i+"'  class='btndelete' value='Delete' onclick='deletepost("+i+")' ><br><br></li>"
   }
   html += "</ol>";
   document.getElementById('postdip').innerHTML = html;
